@@ -1,0 +1,2194 @@
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:300;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmhduz8A.woff2) format('woff2');
+  unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:300;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwkxduz8A.woff2) format('woff2');
+  unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:300;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmxduz8A.woff2) format('woff2');
+  unicode-range:U+1F00-1FFF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:300;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlBduz8A.woff2) format('woff2');
+  unicode-range:U+0370-03FF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:300;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmBduz8A.woff2) format('woff2');
+  unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:300;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmRduz8A.woff2) format('woff2');
+  unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:300;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNa7lqDY.woff2) format('woff2');
+  unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lqDY.woff2) format('woff2');
+  unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNK7lqDY.woff2) format('woff2');
+  unicode-range:U+1F00-1FFF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qO67lqDY.woff2) format('woff2');
+  unicode-range:U+0370-03FF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qN67lqDY.woff2) format('woff2');
+  unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lqDY.woff2) format('woff2');
+  unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:600;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmhduz8A.woff2) format('woff2');
+  unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:600;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwkxduz8A.woff2) format('woff2');
+  unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:600;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmxduz8A.woff2) format('woff2');
+  unicode-range:U+1F00-1FFF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:600;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlBduz8A.woff2) format('woff2');
+  unicode-range:U+0370-03FF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:600;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmBduz8A.woff2) format('woff2');
+  unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:600;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmRduz8A.woff2) format('woff2');
+  unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:600;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmhduz8A.woff2) format('woff2');
+  unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwkxduz8A.woff2) format('woff2');
+  unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmxduz8A.woff2) format('woff2');
+  unicode-range:U+1F00-1FFF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlBduz8A.woff2) format('woff2');
+  unicode-range:U+0370-03FF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmBduz8A.woff2) format('woff2');
+  unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmRduz8A.woff2) format('woff2');
+  unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} 
+main { 
+    display: block;
+    margin:  0; 
+    padding:  0; 
+    border-width:  0; 
+    border-color:  inherit; 
+    outline:  0 none; 
+    border-style:  solid; 
+    font-size:  1em; 
+    line-height:  1.3em; 
+    vertical-align:  baseline; 
+    font-family:  inherit; 
+    text-decoration:  none; 
+    font-style:  normal; 
+    text-overflow:  ellipsis; 
+    color:  inherit; 
+    box-sizing:  border-box; 
+    -webkit-backface-visibility:  hidden;
+} 
+
+#main { 
+    z-index:  100;
+    position: relative; 
+    min-height: 100%; 
+    min-width: 800px; 
+    border-color: #000; 
+    border-top-width: 50px; 
+    transition: .15s border-top-width; 
+    background: #171717 url(https://static.wallhaven.cc/images/layout/bg-dark-grain.png) top left repeat; 
+    background-image: url("https://static.wallhaven.cc/images/layout/bg-dark-grain.png"); 
+    background-position-x: left; 
+    background-position-y: top; 
+    background-size: initial; 
+    background-repeat-x: repeat; 
+    background-repeat-y: repeat; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: rgb(23, 23, 23);
+} 
+
+body.startpage #main { 
+    border-top-width: 0; 
+    padding: 30px 30px 5px; 
+    text-align: center; 
+    background: url(https://static.wallhaven.cc/images/layout/blue-gradients.020-wh.jpg) top center/cover no-repeat fixed,#171717 url(https://static.wallhaven.cc/images/layout/bg-dark-grain.png) top left repeat; 
+    background-image: url("https://static.wallhaven.cc/images/layout/blue-gradients.020-wh.jpg"), url("https://static.wallhaven.cc/images/layout/bg-dark-grain.png"); 
+    background-position-x: center, left; 
+    background-position-y: top, top; 
+    background-size: cover, initial; 
+    background-repeat-x: no-repeat, repeat; 
+    background-repeat-y: no-repeat, repeat; 
+    background-attachment: fixed, initial; 
+    background-origin: initial, initial; 
+    background-clip: initial, initial; 
+    background-color: rgb(23, 23, 23);
+} 
+
+body { 
+    margin:   0; 
+    padding:   0; 
+    border-width:   0; 
+    border-color:   inherit; 
+    outline:   0 none; 
+    border-style:   solid; 
+    font-size:   1em; 
+    line-height:   1.3em; 
+    vertical-align:   baseline; 
+    font-family:   inherit; 
+    text-decoration:   none; 
+    font-style:   normal; 
+    text-overflow:   ellipsis; 
+    color:   inherit; 
+    box-sizing:   border-box; 
+    -webkit-backface-visibility:   hidden;
+    height:  100%; 
+    width:  100%; 
+    min-width:  800px; 
+    background:  #171717 url(https://static.wallhaven.cc/images/layout/bg-dark-grain.png) top left repeat; 
+    background-image:  url("https://static.wallhaven.cc/images/layout/bg-dark-grain.png"); 
+    background-position-x:  left; 
+    background-position-y:  top; 
+    background-size:  initial; 
+    background-repeat-x:  repeat; 
+    background-repeat-y:  repeat; 
+    background-attachment:  initial; 
+    background-origin:  initial; 
+    background-clip:  initial; 
+    background-color:  rgb(23, 23, 23);
+    text-align: center;
+} 
+
+html { 
+    margin:   0; 
+    padding:   0; 
+    border-width:   0; 
+    border-color:   inherit; 
+    outline:   0 none; 
+    border-style:   solid; 
+    font-size:   14px; 
+    line-height:   1.3em; 
+    vertical-align:   baseline; 
+    font-family:   'Source Sans Pro',Arial,sans; 
+    text-decoration:   none; 
+    font-style:   normal; 
+    text-overflow:   ellipsis; 
+    color:   #ddd;
+    box-sizing:   border-box; 
+    -webkit-backface-visibility:   hidden;
+    height: 100%; 
+    width: 100%; 
+    min-width: 800px; 
+    background: #171717 url(https://static.wallhaven.cc/images/layout/bg-dark-grain.png) top left repeat; 
+    background-image: url("https://static.wallhaven.cc/images/layout/bg-dark-grain.png"); 
+    background-position-x: left; 
+    background-position-y: top; 
+    background-size: initial; 
+    background-repeat-x: repeat; 
+    background-repeat-y: repeat; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: rgb(23, 23, 23);
+} 
+
+form { 
+  margin: 0; 
+  padding: 0; 
+  border-width: 0; 
+  border-color: inherit; 
+  outline: 0 none; 
+  border-style: solid; 
+  font-size: 1em; 
+  line-height: 1.3em; 
+  vertical-align: baseline; 
+  font-family: inherit; 
+  text-decoration: none; 
+  font-style: normal; 
+  text-overflow: ellipsis; 
+  color: inherit; 
+  box-sizing: border-box; 
+  -webkit-backface-visibility: hidden;
+} 
+
+#searchbar { 
+  display: flex; 
+  display: -ms-flexbox; 
+  z-index:   190;
+  position:  fixed; 
+  top:  50px; 
+  height:  55px; 
+  width:  100%; 
+  min-width:  800px; 
+  transition:  .15s top; 
+  padding:  4px 0 1px;
+  -ms-flex-pack: center; 
+  justify-content: center; 
+  -ms-flex-align: center; 
+  align-items: center; 
+  font-size: .9em; 
+  background-color: rgba(39,42,44,.75); 
+  background-image: linear-gradient(to bottom,#292c2f 0,rgba(34,34,34,.5) 100%); 
+  box-shadow: 0 0 0 1px #222,0 5px 5px rgba(0,0,0,.5);
+} 
+
+div { 
+  margin: 0; 
+  padding: 0; 
+  border-width: 0; 
+  border-color: inherit; 
+  outline: 0 none; 
+  border-style: solid; 
+  font-size: 1em; 
+  line-height: 1.3em; 
+  vertical-align: baseline; 
+  font-family: inherit; 
+  text-decoration: none; 
+  font-style: normal; 
+  text-overflow: ellipsis; 
+  color: inherit; 
+  box-sizing: border-box; 
+  -webkit-backface-visibility: hidden;
+
+
+} 
+
+.framed { 
+  position: relative; 
+  display: -ms-flexbox; 
+  display: flex; 
+  padding: 3px; 
+  margin: .33em 0; 
+  height: auto; 
+  white-space: nowrap; 
+  border-radius: 3px; 
+  background-color: rgba(30,30,30,.5); 
+  box-shadow: inset 1px 1px 1px rgba(0,0,0,.4),1px 1px 0 rgba(127,127,127,.1);
+} 
+
+#searchbar .framed  { 
+  margin: 0 .25em;
+} 
+
+#searchbar .searchbar-dropdown  { 
+  display: block; 
+  -webkit-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+} 
+
+button { 
+  margin:  0; 
+  padding:  0; 
+  border-width:  0; 
+  border-color:  inherit; 
+  outline:  0 none; 
+  border-style:  solid; 
+  font-size:  1em; 
+  line-height:  1.3em; 
+  vertical-align:  baseline; 
+  font-family:  inherit; 
+  text-decoration:  none; 
+  font-style:  normal; 
+  text-overflow:  ellipsis; 
+  color:  inherit; 
+  box-sizing:  border-box; 
+  -webkit-backface-visibility:  hidden;
+  height: 2.3em;
+} 
+
+.button { 
+  display: inline-block; 
+  margin: .5em .25em; 
+  padding: .5em 1em; 
+  text-align: center; 
+  cursor: pointer; 
+  color: #dddddd; 
+  text-shadow: -1px -1px 0 #000; 
+  border-radius: 3px; 
+  background-color: #204650; 
+  background-image: linear-gradient(to bottom,#275660 0,#183640 100%); 
+  background-size: 100% 150%; 
+  background-position: 0 100%; 
+  transition-property: color,background,text-shadow,box-shadow,border-color; 
+  transition-duration: .25s;
+} 
+
+#search-submit { 
+  display: inline-block; 
+  vertical-align: middle;
+} 
+
+.button:active,.button:hover { 
+  background-position: 0 0;
+} 
+
+input { 
+  margin: 0; 
+  padding: 0; 
+  border-width: 0; 
+  border-color: inherit; 
+  outline: 0 none; 
+  border-style: solid; 
+  font-size: 1em; 
+  line-height: 1.3em; 
+  vertical-align: baseline; 
+  font-family: inherit; 
+  text-decoration: none; 
+  font-style: normal; 
+  text-overflow: ellipsis; 
+  color: inherit; 
+  box-sizing: border-box; 
+  -webkit-backface-visibility: hidden;
+} 
+
+input[type="checkbox"] { 
+  visibility: hidden; 
+  position: fixed; 
+  width: 100px; 
+  height: 0;
+} 
+
+label { 
+  margin: 0; 
+  padding: 0; 
+  border-width: 0; 
+  border-color: inherit; 
+  outline: 0 none; 
+  border-style: solid; 
+  font-size: 1em; 
+  line-height: 1.3em; 
+  vertical-align: baseline; 
+  font-family: inherit; 
+  text-decoration: none; 
+  font-style: normal; 
+  text-overflow: ellipsis; 
+  color: inherit; 
+  box-sizing: border-box; 
+  -webkit-backface-visibility: hidden;
+} 
+
+.framed label  { 
+  -ms-flex-positive: 1; 
+  flex-grow: 1; 
+  -ms-flex-preferred-size: 0; 
+  flex-basis: 0; 
+  -moz-user-select: none; 
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+} 
+
+
+.framed label:not(:last-of-type)  { 
+  margin-right: 3px;
+} 
+ 
+ 
+
+a { 
+  margin:  0; 
+  padding:  0; 
+  border-width:  0; 
+  border-color:  inherit; 
+  outline:  0 none; 
+  border-style:  solid; 
+  font-size:  1em; 
+  line-height:  1.3em; 
+  vertical-align:  baseline; 
+  font-family:  inherit; 
+  text-decoration:  none; 
+  font-style:  normal; 
+  text-overflow:  ellipsis; 
+  color:  inherit; 
+  box-sizing:  border-box; 
+  -webkit-backface-visibility:  hidden;
+  transition-duration: .25s; 
+  transition-property: color,background,opacity,text-shadow,box-shadow,border-color; 
+} 
+
+.jsAnchor { 
+  cursor: pointer;
+} 
+
+.dropdown-toggle { 
+  position: relative; 
+  z-index: 110; 
+  display: block; 
+  padding: .5em;
+} 
+
+#search-resolutions .dropdown-toggle  { 
+  width: 8em;
+} 
+
+.dropdown-toggle:after { 
+  font-family: "Font Awesome 5 Pro"; 
+  font-weight: 900; 
+  content: " \f0d8";
+} 
+
+.dropdown-toggle.collapsed:after { 
+  content: " \f0dd";
+} 
+
+a:active,a:hover { 
+  text-shadow: 0 0 2px rgba(220,255,255,.3);
+} 
+
+.dropdown-toggle:hover { 
+  color: inherit; 
+  background-color: #333; 
+  border-radius: 3px;
+} 
+
+.dropdown { 
+  height: 0; 
+  width: 0; 
+  visibility: hidden; 
+  opacity: 0; 
+  transition-property: opacity,visibility; 
+  transition-duration: .1s;
+} 
+
+#search-order ~ label ,input[type="checkbox"] + label  { 
+  display: inline-block; 
+  padding:  .5em; 
+  background-color:  #353535; 
+  border-radius:  2px; 
+  box-shadow:  inset 0 0 .75em rgba(255,255,255,.03),0 2px 0 #222,0 3px 4px -3px #000,0 1px 2px rgba(0,0,0,.2);
+  min-width: 5em; 
+  text-align: center; 
+  cursor: pointer; 
+  color: #aaa; 
+  text-shadow: 1px 1px 3px rgba(0,0,0,.75); 
+  background-image: linear-gradient(to bottom,#404040 0,#292929 100%); 
+  transition-property: color,background,text-shadow,box-shadow; 
+  transition-duration: .25s;
+} 
+
+#search-order ~ label  { 
+  float: right; 
+  width: 2em; 
+  min-width: 2em; 
+  color: #ddd;
+} 
+
+#search-order ~ label:before  { 
+  font-family: 'Font Awesome 5 Pro'; 
+  content: "\f062";
+} 
+
+#search-order:checked ~ label:before  { 
+  content: "\f063";
+} 
+
+#search-sorting .dropdown-toggle  { 
+  margin-right: 2.25em;
+} 
+
+#search-sorting .dropdown  { 
+  margin-right: 2.25em;
+} 
+
+i { 
+  margin: 0; 
+  padding: 0; 
+  border-width: 0; 
+  border-color: inherit; 
+  outline: 0 none; 
+  border-style: solid; 
+  font-size: 1em; 
+  line-height: 1.3em; 
+  vertical-align: baseline; 
+  font-family: inherit; 
+  text-decoration: none; 
+  font-style: normal; 
+  text-overflow: ellipsis; 
+  color: inherit; 
+  box-sizing: border-box; 
+  -webkit-backface-visibility: hidden;
+} 
+
+.fas { 
+  display:  inline-block; 
+  -moz-osx-font-smoothing:  grayscale; 
+  -webkit-font-smoothing:  antialiased; 
+  font-style:  normal; 
+  font-variant:  normal; 
+  text-rendering:  auto; 
+  line-height:  1;
+  font-family: "Font Awesome 5 Pro"; 
+  font-weight: 900;
+} 
+
+.fa-sync:before { 
+  content: "\f021";
+} 
+
+.dropdown > div  { 
+  position: relative; 
+  z-index: 100; 
+  display: inline-block; 
+  overflow: hidden; 
+  background: linear-gradient(to bottom,#333 0,rgba(51,51,51,.9) 100%); 
+  box-shadow: 0 20px 15px rgba(0,0,0,.7); 
+  border-radius: 0 0 3px 3px; 
+  border-bottom: 1px solid rgba(0,0,0,.6);
+} 
+
+#search-resolutions .dropdown > div  { 
+  padding: 1em; 
+  border-top-right-radius: 3px;
+} 
+
+#search-resolutions .dropdown .framed  { 
+  margin: 0 0 .5em;
+} 
+
+
+p { 
+  margin: 0; 
+  padding: 0; 
+  border-width: 0; 
+  border-color: inherit; 
+  outline: 0 none; 
+  border-style: solid; 
+  font-size: 1em; 
+  line-height: 1.3em; 
+  vertical-align: baseline; 
+  font-family: inherit; 
+  text-decoration: none; 
+  font-style: normal; 
+  text-overflow: ellipsis; 
+  color: inherit; 
+  box-sizing: border-box; 
+  -webkit-backface-visibility: hidden;
+} 
+
+.respicker p  { 
+  margin: 1em 0;
+} 
+
+table { 
+  margin:  auto; 
+  padding:  0; 
+  border-width:  0; 
+  border-color:  inherit; 
+  outline:  0 none; 
+  border-style:  solid; 
+  font-size:  1em; 
+  line-height:  1.3em; 
+  vertical-align:  baseline; 
+  font-family:  inherit; 
+  text-decoration:  none; 
+  font-style:  normal; 
+  text-overflow:  ellipsis; 
+  color:  inherit; 
+  box-sizing:  border-box; 
+  -webkit-backface-visibility:  hidden;
+  border-collapse: collapse; 
+  border-spacing: 0; 
+  text-align: left;
+} 
+
+.label-table { 
+  text-align: center;
+} 
+
+.respicker table  { 
+  width: 100%; 
+  margin: .5em 0;
+} 
+
+.respicker hr  { 
+  margin: .25em 0 1em; 
+  border-width: 1px 0 0; 
+  border-color: rgba(127,127,127,.5);
+} 
+
+.oneline { 
+  display: -ms-flexbox; 
+  display: flex; 
+  position: relative; 
+  height: 2.3em; 
+  margin: .5em 0; 
+  white-space: nowrap; 
+  overflow: visible;
+} 
+
+.respicker .framed  { 
+  margin: .5em 0;
+} 
+
+.far { 
+  display:   inline-block; 
+  -moz-osx-font-smoothing:   grayscale; 
+  -webkit-font-smoothing:   antialiased; 
+  font-style:   normal; 
+  font-variant:   normal; 
+  text-rendering:   auto; 
+  line-height:   1;
+  font-family:  "Font Awesome 5 Pro";
+  font-weight: 400;
+} 
+
+.fa-plus:before { 
+  content: "\f067";
+} 
+
+.fa-dot-circle:before { 
+  content: "\f192";
+} 
+
+strong { 
+  margin:  0; 
+  padding:  0; 
+  border-width:  0; 
+  border-color:  inherit; 
+  outline:  0 none; 
+  border-style:  solid; 
+  font-size:  1em; 
+  line-height:  1.3em; 
+  vertical-align:  baseline; 
+  font-family:  inherit; 
+  text-decoration:  none; 
+  font-style:  normal; 
+  text-overflow:  ellipsis; 
+  color:  inherit; 
+  box-sizing:  border-box; 
+  -webkit-backface-visibility:  hidden;
+  font-weight: 700;
+} 
+
+thead { 
+  margin: 0; 
+  padding: 0; 
+  border-width: 0; 
+  border-color: inherit; 
+  outline: 0 none; 
+  border-style: solid; 
+  font-size: 1em; 
+  line-height: 1.3em; 
+  vertical-align: baseline; 
+  font-family: inherit; 
+  text-decoration: none; 
+  font-style: normal; 
+  text-overflow: ellipsis; 
+  color: inherit; 
+  box-sizing: border-box; 
+  -webkit-backface-visibility: hidden;
+} 
+
+table thead  { 
+  border-bottom: 1px solid rgba(127,127,127,.5);
+} 
+
+tbody { 
+  margin: 0; 
+  padding: 0; 
+  border-width: 0; 
+  border-color: inherit; 
+  outline: 0 none; 
+  border-style: solid; 
+  font-size: 1em; 
+  line-height: 1.3em; 
+  vertical-align: baseline; 
+  font-family: inherit; 
+  text-decoration: none; 
+  font-style: normal; 
+  text-overflow: ellipsis; 
+  color: inherit; 
+  box-sizing: border-box; 
+  -webkit-backface-visibility: hidden;
+} 
+
+.oneline > label  { 
+  height:   2.3em; 
+  line-height:   2.3em; 
+  margin:   0;
+  width:  2.3em; 
+  padding:  0; 
+  text-align:  center; 
+  color:  #aaa; 
+  text-shadow:  1px 1px 0 #111; 
+  background-color:  #232323; 
+  box-shadow:  inset 0 0 .75em rgba(255,255,255,.02),0 2px 0 #1c1c1c,0 3px 4px -3px #000,0 1px 2px rgba(0,0,0,.2);
+  cursor: pointer;
+} 
+
+.respicker .respicker-custom > label  { 
+  margin: 0; 
+  padding: 0 .5em; 
+  font-weight: 700; 
+  -ms-flex: 1 1 10em; 
+  flex: 1 1 10em;
+} 
+
+input[type="text"] { 
+  text-overflow:   clip;
+  text-align: center;
+  height:  3.3em;
+  padding: .5em; 
+  background-color: #313131; 
+  border-radius: 2px; 
+  box-shadow: inset 0 0 .75em rgba(255,255,255,.03),0 2px 0 #222,0 3px 4px -3px #000,0 1px 2px rgba(0,0,0,.2);
+} 
+
+.oneline > input  { 
+  height:  2.3em; 
+  line-height:  2.3em; 
+  margin:  0;
+  -ms-flex-positive: 1; 
+  flex-grow: 1;
+} 
+
+.respicker input[type="text"]  { 
+  width: 5em;
+} 
+
+.respicker .respicker-custom > input  { 
+  width: 5em; 
+  text-align: center;
+} 
+
+.respicker .respicker-custom > label.respicker-custom-separator  { 
+  padding: 0 .25em; 
+  width: 1.5em; 
+  -ms-flex: 0 0 1.5em; 
+  flex: 0 0 1.5em;
+} 
+
+em { 
+  margin:  0; 
+  padding:  0; 
+  border-width:  0; 
+  border-color:  inherit; 
+  outline:  0 none; 
+  border-style:  solid; 
+  font-size:  1em; 
+  line-height:  1.3em; 
+  vertical-align:  baseline; 
+  font-family:  inherit; 
+  text-decoration:  none; 
+  font-style:  italic;
+  text-overflow:  ellipsis; 
+  color:  inherit; 
+  box-sizing:  border-box; 
+  -webkit-backface-visibility:  hidden;
+} 
+
+tr { 
+  margin: 0; 
+  padding: 0; 
+  border-width: 0; 
+  border-color: inherit; 
+  outline: 0 none; 
+  border-style: solid; 
+  font-size: 1em; 
+  line-height: 1.3em; 
+  vertical-align: baseline; 
+  font-family: inherit; 
+  text-decoration: none; 
+  font-style: normal; 
+  text-overflow: ellipsis; 
+  color: inherit; 
+  box-sizing: border-box; 
+  -webkit-backface-visibility: hidden;
+} 
+
+.fa-times:before { 
+  content: "\f00d";
+} 
+
+th { 
+  margin: 0; 
+  padding: 0; 
+  border-width: 0; 
+  border-color: inherit; 
+  outline: 0 none; 
+  border-style: solid; 
+  font-size: 1em; 
+  line-height: 1.3em; 
+  vertical-align: baseline; 
+  font-family: inherit; 
+  text-decoration: none; 
+  font-style: normal; 
+  text-overflow: ellipsis; 
+  color: inherit; 
+  box-sizing: border-box; 
+  -webkit-backface-visibility: hidden;
+} 
+
+table th  { 
+  padding: .125em .5em;
+} 
+
+.label-table th  { 
+  padding: 2px;
+} 
+
+td { 
+  margin: 0; 
+  padding: 0; 
+  border-width: 0; 
+  border-color: inherit; 
+  outline: 0 none; 
+  border-style: solid; 
+  font-size: 1em; 
+  line-height: 1.3em; 
+  vertical-align: baseline; 
+  font-family: inherit; 
+  text-decoration: none; 
+  font-style: normal; 
+  text-overflow: ellipsis; 
+  color: inherit; 
+  box-sizing: border-box; 
+  -webkit-backface-visibility: hidden;
+} 
+
+table td  { 
+  padding: .125em .5em;
+} 
+
+.label-table td  { 
+  padding: 2px;
+} 
+
+.label-table label  { 
+  width: 100%;
+} 
+
+div { 
+    margin: 0; 
+    padding: 0; 
+    border-width: 0; 
+    border-color: inherit; 
+    outline: 0 none; 
+    border-style: solid; 
+    font-size: 1em; 
+    line-height: 1.3em; 
+    vertical-align: baseline; 
+    font-family: inherit; 
+    text-decoration: none; 
+    font-style: normal; 
+    text-overflow: ellipsis; 
+    color: inherit; 
+    box-sizing: border-box; 
+    -webkit-backface-visibility: hidden;
+} 
+
+#featured  { 
+    max-width: 1560px; 
+    margin: auto;
+} 
+
+.pop-tags  { 
+    max-width: 80%; 
+    margin: 1em auto; 
+    text-shadow: 1px 1px 3px rgba(0,0,0,.4); 
+    display: -ms-flexbox; 
+    display: flex; 
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap; 
+    -ms-flex-pack: center; 
+    justify-content: center; 
+    -ms-flex-align: center; 
+    align-items: center;
+} 
+
+.feat-row  { 
+    -ms-flex-pack: center; 
+    justify-content: center; 
+    max-width: 1560px; 
+    display: -ms-inline-flexbox; 
+    display: inline-flex; 
+    -ms-flex-wrap: nowrap; 
+    flex-wrap: nowrap;
+    
+} 
+
+.more-feat  { 
+    max-width: 1560px; 
+    margin: auto;
+} 
+
+span { 
+    margin: 0; 
+    padding: 0; 
+    border-width: 0; 
+    border-color: inherit; 
+    outline: 0 none; 
+    border-style: solid; 
+    font-size: 1em; 
+    line-height: 1.3em; 
+    vertical-align: baseline; 
+    font-family: inherit; 
+    text-decoration: none; 
+    font-style: normal; 
+    text-overflow: ellipsis; 
+    color: inherit; 
+    box-sizing: border-box; 
+    -webkit-backface-visibility: hidden;
+} 
+
+.pop-tags span  { 
+    margin: auto 8px;
+} 
+
+.pop-tags .pop-tag-size-lg  { 
+    font-size: 2em;
+} 
+
+.pop-tags .pop-tag-item:before  { 
+    color: rgba(153,255,153,.4); 
+    content: '#';
+} 
+
+.pop-tags .pop-tag-size-med  { 
+    font-size: 1.5em;
+} 
+
+.feat-row .lg-thumb  { 
+    padding: 2px 6px;
+} 
+
+a { 
+    margin:  0; 
+    padding:  0; 
+    border-width:  0; 
+    border-color:  inherit; 
+    outline:  0 none; 
+    border-style:  solid; 
+    font-size:  1em; 
+    line-height:  1.3em; 
+    vertical-align:  baseline; 
+    font-family:  inherit; 
+    text-decoration:  none; 
+    font-style:  normal; 
+    text-overflow:  ellipsis; 
+    color:  inherit; 
+    box-sizing:  border-box; 
+    -webkit-backface-visibility:  hidden;
+    transition-duration: .25s; 
+    transition-property: color,background,opacity,text-shadow,box-shadow,border-color; 
+} 
+
+.tagname { 
+    word-wrap: break-word;
+} 
+
+.tagname.sfw { 
+    color: #9f9!important;
+} 
+
+a:active,a:hover { 
+    text-shadow: 0 0 2px rgba(220,255,255,.3);
+} 
+
+.feat-row .sm-thumb  { 
+    padding: 4px 6px;
+} 
+
+img { 
+    display: inline-block; 
+    margin:  0; 
+    padding:  0; 
+    border-width:  0; 
+    border-color:  inherit; 
+    outline:  0 none; 
+    border-style:  solid; 
+    font-size:  1em; 
+    line-height:  1.3em; 
+    vertical-align:  baseline; 
+    font-family:  inherit; 
+    text-decoration:  none; 
+    font-style:  normal; 
+    text-overflow:  ellipsis; 
+    color:  inherit; 
+    box-sizing:  content-box;
+    object-fit: cover;
+    -webkit-backface-visibility:  hidden;
+} 
+
+.feat-row img  { 
+    max-width: 100%; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0,0,0,.5); 
+    transition: .25s;
+    
+} 
+
+.feat-row a:hover img  { 
+    filter: brightness(130%); 
+    box-shadow: 2px 2px 8px rgba(0,0,0,.8);
+} 
+
+
+
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:300;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmhduz8A.woff2) format('woff2');
+  unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:300;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwkxduz8A.woff2) format('woff2');
+  unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:300;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmxduz8A.woff2) format('woff2');
+  unicode-range:U+1F00-1FFF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:300;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlBduz8A.woff2) format('woff2');
+  unicode-range:U+0370-03FF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:300;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmBduz8A.woff2) format('woff2');
+  unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:300;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmRduz8A.woff2) format('woff2');
+  unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:300;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNa7lqDY.woff2) format('woff2');
+  unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lqDY.woff2) format('woff2');
+  unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNK7lqDY.woff2) format('woff2');
+  unicode-range:U+1F00-1FFF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qO67lqDY.woff2) format('woff2');
+  unicode-range:U+0370-03FF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qN67lqDY.woff2) format('woff2');
+  unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lqDY.woff2) format('woff2');
+  unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:600;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmhduz8A.woff2) format('woff2');
+  unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:600;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwkxduz8A.woff2) format('woff2');
+  unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:600;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmxduz8A.woff2) format('woff2');
+  unicode-range:U+1F00-1FFF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:600;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlBduz8A.woff2) format('woff2');
+  unicode-range:U+0370-03FF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:600;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmBduz8A.woff2) format('woff2');
+  unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:600;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmRduz8A.woff2) format('woff2');
+  unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:600;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmhduz8A.woff2) format('woff2');
+  unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwkxduz8A.woff2) format('woff2');
+  unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmxduz8A.woff2) format('woff2');
+  unicode-range:U+1F00-1FFF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlBduz8A.woff2) format('woff2');
+  unicode-range:U+0370-03FF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmBduz8A.woff2) format('woff2');
+  unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmRduz8A.woff2) format('woff2');
+  unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+} 
+@font-face { 
+  font-family:'Source Sans Pro';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2) format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} 
+@font-face { 
+  font-family:"Font Awesome 5 Pro";
+  font-style:normal;
+  font-weight:300;
+  src:url(https://pro.fontawesome.com/releases/v5.6.3/webfonts/fa-light-300.eot);
+  src:url(https://pro.fontawesome.com/releases/v5.6.3/webfonts/fa-light-300.eot?#iefix) format("embedded-opentype"),url(https://pro.fontawesome.com/releases/v5.6.3/webfonts/fa-light-300.woff2) format("woff2"),url(https://pro.fontawesome.com/releases/v5.6.3/webfonts/fa-light-300.woff) format("woff"),url(https://pro.fontawesome.com/releases/v5.6.3/webfonts/fa-light-300.ttf) format("truetype"),url(https://pro.fontawesome.com/releases/v5.6.3/webfonts/fa-light-300.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5 Pro";
+  font-style:normal;
+  font-weight:400;
+  src:url(https://pro.fontawesome.com/releases/v5.6.3/webfonts/fa-regular-400.eot);
+  src:url(https://pro.fontawesome.com/releases/v5.6.3/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://pro.fontawesome.com/releases/v5.6.3/webfonts/fa-regular-400.woff2) format("woff2"),url(https://pro.fontawesome.com/releases/v5.6.3/webfonts/fa-regular-400.woff) format("woff"),url(https://pro.fontawesome.com/releases/v5.6.3/webfonts/fa-regular-400.ttf) format("truetype"),url(https://pro.fontawesome.com/releases/v5.6.3/webfonts/fa-regular-400.svg#fontawesome) format("svg");
+} 
+@font-face { 
+  font-family:"Font Awesome 5 Pro";
+  font-style:normal;
+  font-weight:900;
+  src:url(https://pro.fontawesome.com/releases/v5.6.3/webfonts/fa-solid-900.eot);
+  src:url(https://pro.fontawesome.com/releases/v5.6.3/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://pro.fontawesome.com/releases/v5.6.3/webfonts/fa-solid-900.woff2) format("woff2"),url(https://pro.fontawesome.com/releases/v5.6.3/webfonts/fa-solid-900.woff) format("woff"),url(https://pro.fontawesome.com/releases/v5.6.3/webfonts/fa-solid-900.ttf) format("truetype"),url(https://pro.fontawesome.com/releases/v5.6.3/webfonts/fa-solid-900.svg#fontawesome) format("svg");
+} 
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"); 
+main { 
+    display: block;
+    margin:  0; 
+    padding:  0; 
+    border-width:  0; 
+    border-color:  inherit; 
+    outline:  0 none; 
+    border-style:  solid; 
+    font-size:  1em; 
+    line-height:  1.3em; 
+    vertical-align:  baseline; 
+    font-family:  inherit; 
+    text-decoration:  none; 
+    font-style:  normal; 
+    text-overflow:  ellipsis; 
+    color:  inherit; 
+    box-sizing:  border-box; 
+    -webkit-backface-visibility:  hidden;
+} 
+
+#main { 
+    z-index:  100;
+    position: relative; 
+    min-height: 100%; 
+    min-width: 800px; 
+    border-color: #000; 
+    border-top-width: 50px; 
+    transition: .15s border-top-width; 
+    background: #171717 url(https://static.wallhaven.cc/images/layout/bg-dark-grain.png) top left repeat; 
+    background-image: url("https://static.wallhaven.cc/images/layout/bg-dark-grain.png"); 
+    background-position-x: left; 
+    background-position-y: top; 
+    background-size: initial; 
+    background-repeat-x: repeat; 
+    background-repeat-y: repeat; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: rgb(23, 23, 23);
+} 
+
+#searchbar:not(.collapsed) ~ #main { 
+    border-top-width: 105px;
+} 
+
+body { 
+    margin:   0; 
+    padding:   0; 
+    border-width:   0; 
+    border-color:   inherit; 
+    outline:   0 none; 
+    border-style:   solid; 
+    font-size:   1em; 
+    line-height:   1.3em; 
+    vertical-align:   baseline; 
+    font-family:   inherit; 
+    text-decoration:   none; 
+    font-style:   normal; 
+    text-overflow:   ellipsis; 
+    color:   inherit; 
+    box-sizing:   border-box; 
+    -webkit-backface-visibility:   hidden;
+    height:  100%; 
+    width:  100%; 
+    min-width:  800px; 
+    background:  #171717 url(https://static.wallhaven.cc/images/layout/bg-dark-grain.png) top left repeat; 
+    background-image:  url("https://static.wallhaven.cc/images/layout/bg-dark-grain.png"); 
+    background-position-x:  left; 
+    background-position-y:  top; 
+    background-size:  initial; 
+    background-repeat-x:  repeat; 
+    background-repeat-y:  repeat; 
+    background-attachment:  initial; 
+    background-origin:  initial; 
+    background-clip:  initial; 
+    background-color:  rgb(23, 23, 23);
+    text-align: center;
+} 
+
+html { 
+    margin:   0; 
+    padding:   0; 
+    border-width:   0; 
+    border-color:   inherit; 
+    outline:   0 none; 
+    border-style:   solid; 
+    font-size:   14px; 
+    line-height:   1.3em; 
+    vertical-align:   baseline; 
+    font-family:   'Source Sans Pro',Arial,sans; 
+    text-decoration:   none; 
+    font-style:   normal; 
+    text-overflow:   ellipsis; 
+    color:   #ddd;
+    box-sizing:   border-box; 
+    -webkit-backface-visibility:   hidden;
+    height: 100%; 
+    width: 100%; 
+    min-width: 800px; 
+    background: #171717 url(https://static.wallhaven.cc/images/layout/bg-dark-grain.png) top left repeat; 
+    background-image: url("https://static.wallhaven.cc/images/layout/bg-dark-grain.png"); 
+    background-position-x: left; 
+    background-position-y: top; 
+    background-size: initial; 
+    background-repeat-x: repeat; 
+    background-repeat-y: repeat; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: rgb(23, 23, 23);
+} 
+
+header { 
+    display: block;
+    margin:  0; 
+    padding:  0; 
+    border-width:  0; 
+    border-color:  inherit; 
+    outline:  0 none; 
+    border-style:  solid; 
+    font-size:  1em; 
+    line-height:  1.3em; 
+    vertical-align:  baseline; 
+    font-family:  inherit; 
+    text-decoration:  none; 
+    font-style:  normal; 
+    text-overflow:  ellipsis; 
+    color:  inherit; 
+    box-sizing:  border-box; 
+    -webkit-backface-visibility:  hidden;
+} 
+
+.listing-header { 
+    position: relative; 
+    margin: 50px 0px; 
+    text-align: left; 
+    padding: 1em 2em; 
+    font-weight: 700;
+} 
+
+h1 { 
+    margin:   0px; 
+    padding:  0px; 
+    border-width:  0; 
+    border-color:  inherit; 
+    outline:  0 none; 
+    border-style:  solid; 
+    font-size:  2em; 
+    line-height:  1.3em; 
+    vertical-align:  baseline; 
+    font-family:  Montserrat,'Source Sans Pro',Arial,sans;
+    text-decoration:  none; 
+    font-style:  normal; 
+    text-overflow:  ellipsis; 
+    color:  inherit; 
+    box-sizing:  border-box; 
+    -webkit-backface-visibility:  hidden;
+} 
+
+.listing-header .listing-header > h1  { 
+    margin: .1em 1em .1em 0; 
+    font-size: 2em; 
+    vertical-align: middle; 
+    text-shadow: 1px 2px 4px #000;
+} 
+
+p { 
+    margin: 0; 
+    padding: 0; 
+    border-width: 0; 
+    border-color: inherit; 
+    outline: 0 none; 
+    border-style: solid; 
+    font-size: 1em; 
+    line-height: 1.3em; 
+    vertical-align: baseline; 
+    font-family: inherit; 
+    text-decoration: none; 
+    font-style: normal; 
+    text-overflow: ellipsis; 
+    color: inherit; 
+    box-sizing: border-box; 
+    -webkit-backface-visibility: hidden;
+} 
+
+.listing-header .listing-header > p  { 
+    display: inline-block; 
+    border-width: 0; 
+    padding: 0; 
+    margin: 0 .1em 0 0; 
+    color: #ddd;
+} 
+
+i { 
+    margin: 0; 
+    padding: 0; 
+    border-width: 0; 
+    border-color: inherit; 
+    outline: 0 none; 
+    border-style: solid; 
+    font-size: 1em; 
+    line-height: 1.3em; 
+    vertical-align: baseline; 
+    font-family: inherit; 
+    text-decoration: none; 
+    font-style: normal; 
+    text-overflow: ellipsis; 
+    color: inherit; 
+    box-sizing: border-box; 
+    -webkit-backface-visibility: hidden;
+} 
+
+.far { 
+    display:   inline-block; 
+    -moz-osx-font-smoothing:   grayscale; 
+    -webkit-font-smoothing:   antialiased; 
+    font-style:   normal; 
+    font-variant:   normal; 
+    text-rendering:   auto; 
+    line-height:   1;
+    font-family:  "Font Awesome 5 Pro";
+    font-weight: 400;
+} 
+
+.latest  { 
+    color: #ad3;
+} 
+
+.listing-header .listing-header > h1 .far  { 
+    margin-right: .25em; 
+    font-size: 1.4em;
+} 
+
+.fa-clock:before { 
+    content: "\f017";
+} 
+
+
+
+navbar
+
+header { 
+  display: block;
+  margin:  0px; 
+  padding:  0; 
+  border-width:  0; 
+  border-color:  inherit; 
+  outline:  0 none; 
+  border-style:  solid; 
+  font-size:  1em; 
+  line-height:  1.3em; 
+  vertical-align:  baseline; 
+  font-family:  inherit; 
+  text-decoration:  none; 
+  font-style:  normal; 
+  text-overflow:  ellipsis; 
+  color:  inherit; 
+  box-sizing:  border-box; 
+  -webkit-backface-visibility:  hidden;
+} 
+
+#header { 
+  display: flex; 
+  display: -ms-flexbox; 
+  z-index:   200;
+  position:  fixed; 
+  top:  0; 
+  height:  50px; 
+  width:  100%; 
+  min-width:  640px;
+  -ms-flex-align: center; 
+  align-items: center; 
+  font-size: 1.1em; 
+  white-space: nowrap; 
+  background-color: #212427; 
+  background-image: linear-gradient(to bottom,#292c2f 0,#191c1f 100%); 
+  text-shadow: 1px 1px 3px rgba(0,0,0,.75); 
+  box-shadow: inset 0 0 0 1px rgba(31,31,31,.66),0 0 10px rgba(0,0,0,.75),0 0 10px rgba(0,0,0,.75);
+} 
+
+a { 
+  margin:  0; 
+  padding:  0; 
+  border-width:  0; 
+  border-color:  inherit; 
+  outline:  0 none; 
+  border-style:  solid; 
+  font-size:  1em; 
+  line-height:  1.3em; 
+  vertical-align:  baseline; 
+  font-family:  inherit; 
+  text-decoration:  none; 
+  font-style:  normal; 
+  text-overflow:  ellipsis; 
+  color:  inherit; 
+  box-sizing:  border-box; 
+  -webkit-backface-visibility:  hidden;
+  transition-duration: .25s; 
+  transition-property: color,background,opacity,text-shadow,box-shadow,border-color; 
+} 
+
+#logo { 
+  line-height: 50px; 
+  padding: 0 5em 0 .5em;
+} 
+
+a:active,a:hover { 
+  text-shadow: 0 0 2px rgba(220,255,255,.3);
+} 
+
+div { 
+  margin: 0; 
+  padding: 0; 
+  border-width: 0; 
+  border-color: inherit; 
+  outline: 0 none; 
+  border-style: solid; 
+  font-size: 1em; 
+  line-height: 1.3em; 
+  vertical-align: baseline; 
+  font-family: inherit; 
+  text-decoration: none; 
+  font-style: normal; 
+  text-overflow: ellipsis; 
+  color: inherit; 
+  box-sizing: border-box; 
+  -webkit-backface-visibility: hidden;
+} 
+
+.topmenu { 
+  display:  inline-block; 
+  position:  relative; 
+  font-family:  Montserrat,'Source Sans Pro',Arial,sans; 
+  font-variant:  small-caps; 
+  line-height:  50px; 
+  vertical-align:  top; 
+  text-align:  center;
+  border-left: 1px solid rgba(0,0,0,.5); 
+  border-right: 1px solid rgba(255,255,255,.05);
+} 
+
+form { 
+  margin: 0; 
+  padding: 0; 
+  border-width: 0; 
+  border-color: inherit; 
+  outline: 0 none; 
+  border-style: solid; 
+  font-size: 1em; 
+  line-height: 1.3em; 
+  vertical-align: baseline; 
+  font-family: inherit; 
+  text-decoration: none; 
+  font-style: normal; 
+  text-overflow: ellipsis; 
+  color: inherit; 
+  box-sizing: border-box; 
+  -webkit-backface-visibility: hidden;
+} 
+
+#header-search { 
+  -ms-flex-positive: 1; 
+  flex-grow: 1; 
+  margin-left: 1em; 
+  display: -ms-flexbox; 
+  display: flex; 
+  -ms-flex-align: center; 
+  align-items: center;
+} 
+
+#userpanel { 
+  height: 50px; 
+  margin-right: .5em; 
+  position: relative; 
+  display: -ms-flexbox; 
+  display: flex;
+} 
+
+img { 
+  display: inline-block; 
+  margin:  0; 
+  padding:  0; 
+  border-width:  0; 
+  border-color:  inherit; 
+  outline:  0 none; 
+  border-style:  solid; 
+  font-size:  1em; 
+  line-height:  1.3em; 
+  vertical-align:  baseline; 
+  font-family:  inherit; 
+  text-decoration:  none; 
+  font-style:  normal; 
+  text-overflow:  ellipsis; 
+  color:  inherit; 
+  box-sizing:  content-box;
+  -webkit-backface-visibility:  hidden;
+} 
+
+#header img  { 
+  vertical-align: middle; 
+  position: relative; 
+  top: -2px;
+} 
+
+.jsAnchor { 
+  cursor: pointer;
+} 
+
+.topmenu a  { 
+  position: relative; 
+  padding: 0 .5em;
+} 
+
+.topmenu .topmenu-toggle ,.topmenu a  { 
+  display: inline-block; 
+  line-height: inherit;
+} 
+
+.topmenu .topmenu-toggle  { 
+  float:  right; 
+  line-height:  50px;
+  border-right: 1px solid rgba(0,0,0,.5); 
+  border-left: 1px solid rgba(255,255,255,.05);
+} 
+
+.topmenu a.topmenu-toggle  { 
+  color: #49f;
+} 
+
+.topmenu a.topmenu-toggle:active ,.topmenu a.topmenu-toggle:hover  { 
+  background-color: rgba(68,153,255,.1);
+} 
+
+nav { 
+  display: block;
+  margin:  0; 
+  padding:  0; 
+  border-width:  0; 
+  border-color:  inherit; 
+  outline:  0 none; 
+  border-style:  solid; 
+  font-size:  1em; 
+  line-height:  1.3em; 
+  vertical-align:  baseline; 
+  font-family:  inherit; 
+  text-decoration:  none; 
+  font-style:  normal; 
+  text-overflow:  ellipsis; 
+  color:  inherit; 
+  box-sizing:  border-box; 
+  -webkit-backface-visibility:  hidden;
+} 
+
+@media (min-width: 1100px){ 
+.topmenu-full { 
+  display: inline-block;
+} 
+}     
+
+.header-search-input-frame { 
+  -ms-flex-positive: 1; 
+  flex-grow: 1; 
+  max-width: 30em; 
+  display: -ms-flexbox; 
+  display: flex; 
+  border-width: 1px 0 1px 1px; 
+  border-color: #000 #252525 #262626 #000; 
+  border-radius: 3px 0 0 3px; 
+  background-color: #1b1b1b; 
+  background-image: linear-gradient(to bottom,#191919 0,#1c1c1c 100%); 
+  box-shadow: inset 0 0 5px rgba(0,0,0,.3);
+} 
+
+button { 
+  margin:  0; 
+  padding:  0; 
+  background-color: #183640;
+  border-width:  0; 
+  border-color:  inherit; 
+  outline:  0 none; 
+  border-style:  solid; 
+  font-size:  1em; 
+  line-height:  1.3em; 
+  vertical-align:  baseline; 
+  font-family:  inherit; 
+  text-decoration:  none; 
+  font-style:  normal; 
+  text-overflow:  ellipsis; 
+  color:  inherit; 
+  box-sizing:  border-box; 
+  -webkit-backface-visibility:  hidden;
+  height: 3.45em;
+  width: 110px;
+  border-radius: 0px;
+} 
+button:hover{
+  cursor: pointer ;
+}
+
+#header-search button  { 
+  box-sizing: content-box; 
+  width: 2em; 
+  height: 2em; 
+  cursor: pointer; 
+  color: #aaa; 
+  background-color: #222; 
+  background-image: linear-gradient(to bottom,#242424 0,#1f1f1f 100%); 
+  border-width: 1px 1px 1px 0; 
+  border-color: #000 #252525 #262626 #000; 
+  border-radius: 0 3px 3px 0;
+} 
+
+.usermenu-toggle { 
+  line-height: 50px; 
+  padding: 0 .65em; 
+  font-size: .9em; 
+  font-family: Montserrat,'Source Sans Pro',Arial,sans; 
+  border-right: 1px solid rgba(0,0,0,.5);
+} 
+
+span { 
+  margin: 0; 
+  padding: 0; 
+  border-width: 0; 
+  border-color: inherit; 
+  outline: 0 none; 
+  border-style: solid; 
+  font-size: 1em; 
+  line-height: 1.3em; 
+  vertical-align: baseline; 
+  font-family: inherit; 
+  text-decoration: none; 
+  font-style: normal; 
+  text-overflow: ellipsis; 
+  color: inherit; 
+  box-sizing: border-box; 
+  -webkit-backface-visibility: hidden;
+} 
+
+.userpanel-buttons { 
+  padding: 0 .5em; 
+  line-height: 50px; 
+  border-left: 1px solid rgba(255,255,255,.05);
+} 
+
+.userpanel-dropdown { 
+  width: 25em; 
+  margin-right: -.85em; 
+  right: 2em; 
+  border-radius: 3px;
+} 
+
+nav#usermenu { 
+  height: auto; 
+  padding: 0; 
+  margin: 0;
+} 
+
+#userpanel .userpanel-dropdown  { 
+  position: absolute; 
+  top: 50px; 
+  text-align: left; 
+  line-height: 1.3em; 
+  opacity: 0; 
+  visibility: hidden; 
+  transform-origin: 80% top; 
+  background-color: #303030; 
+  box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+} 
+
+#userpanel .userpanel-dropdown.collapsed  { 
+  animation: .15s forwards disappear;
+} 
+
+#userpanel .userpanel-dropdown:before  { 
+  content: ""; 
+  position: absolute; 
+  top: -20px; 
+  right: 1em; 
+  border: 10px solid transparent; 
+  border-bottom-color: #303030;
+} 
+
+aside { 
+  display: block;
+  margin:  0; 
+  padding:  0; 
+  border-width:  0; 
+  border-color:  inherit; 
+  outline:  0 none; 
+  border-style:  solid; 
+  font-size:  1em; 
+  line-height:  1.3em; 
+  vertical-align:  baseline; 
+  font-family:  inherit; 
+  text-decoration:  none; 
+  font-style:  normal; 
+  text-overflow:  ellipsis; 
+  color:  inherit; 
+  box-sizing:  border-box; 
+  -webkit-backface-visibility:  hidden;
+} 
+
+i { 
+  margin: 0; 
+  padding: 0; 
+  border-width: 0; 
+  border-color: inherit; 
+  outline: 0 none; 
+  border-style: solid; 
+  font-size: 1em; 
+  line-height: 1.3em; 
+  vertical-align: baseline; 
+  font-family: inherit; 
+  text-decoration: none; 
+  font-style: normal; 
+  text-overflow: ellipsis; 
+  color: inherit; 
+  box-sizing: border-box; 
+  -webkit-backface-visibility: hidden;
+} 
+
+.far { 
+  display:   inline-block; 
+  -moz-osx-font-smoothing:   grayscale; 
+  -webkit-font-smoothing:   antialiased; 
+  font-style:   normal; 
+  font-variant:   normal; 
+  text-rendering:   auto; 
+  line-height:   1;
+  font-family:  "Font Awesome 5 Pro";
+  font-weight: 400;
+} 
+
+@media (min-width: 1100px){ 
+.topmenu-toggle .far  { 
+  display: none;
+} 
+}     
+
+.fa-bars:before { 
+  content: "\f0c9";
+} 
+
+@media (min-width: 1100px){ 
+.topmenu-toggle span  { 
+  margin: 0 .5em;
+} 
+}     
+
+ul { 
+  margin: 0; 
+  padding: 0; 
+  border-width: 0; 
+  border-color: inherit; 
+  outline: 0 none; 
+  border-style: solid; 
+  font-size: 1em; 
+  line-height: 1.3em; 
+  vertical-align: baseline; 
+  font-family: inherit; 
+  text-decoration: none; 
+  font-style: normal; 
+  text-overflow: ellipsis; 
+  color: inherit; 
+  box-sizing: border-box; 
+  -webkit-backface-visibility: hidden;
+} 
+
+.topmenu ul  { 
+  display: inline-block; 
+  line-height: inherit;
+} 
+
+.topmenu .topmenu-primary  { 
+  line-height: 50px;
+} 
+
+@media (min-width: 1100px){ 
+.topmenu-partial { 
+  position: absolute; 
+  top: 50px; 
+  line-height: 1.3em; 
+  opacity: 0; 
+  visibility: hidden; 
+  background-color: #222; 
+  box-shadow: 1px 1px 5px rgba(0,0,0,.5); 
+  transform-origin: 90% top; 
+  right: 0;
+} 
+
+.topmenu-partial:before { 
+  content:  ""; 
+  position:  absolute; 
+  top:  -20px; 
+  border:  10px solid transparent; 
+  border-bottom-color:  #2c2c2c;
+  right: 1.66em;
+} 
+}     
+
+input { 
+  margin: 0; 
+  padding: 0; 
+  border-width: 0; 
+  border-color: inherit; 
+  outline: 0 none; 
+  border-style: solid; 
+  font-size: 1em; 
+  line-height: 1.3em; 
+  vertical-align: baseline; 
+  font-family: inherit; 
+  text-decoration: none; 
+  font-style: normal; 
+  text-overflow: ellipsis; 
+  color: inherit; 
+  box-sizing: border-box; 
+  width: 87%;
+
+  -webkit-backface-visibility: hidden;
+} 
+
+input[type="search"] { 
+  text-overflow:    clip;
+  height:   .3em;
+  -webkit-appearance:  none;
+  padding: .5em; 
+  background-color: #313131; 
+  border-radius: 2px; 
+  box-shadow: inset 0 0 .75em rgba(255,255,255,.03),0 2px 0 #222,0 3px 4px -3px #000,0 1px 2px rgba(0,0,0,.2);
+} 
+
+.header-search-input-frame > input  { 
+  -ms-flex-positive: 1; 
+  flex-grow: 1; 
+  height: 2em; 
+  line-height: 2em; 
+  padding: 0 .5em; 
+  background: 0 0; 
+  box-shadow: none;
+} 
+.search-container {
+  position: relative;
+  display: inline-block;
+  left: 35%;
+}
+
+input[type="text"] {
+  align-items: center;
+  padding-right: 350px; /* leave space for the button */
+}
+
+button[type="submit"] {
+  position: absolute;
+  top: 0;
+  float: right;
+  height: 100%;
+  padding: 5px 10px;
+  background-color: #313131;
+  box-shadow: inset 0 0 .75em rgba(255,255,255,.03),0 2px 0 #222,0 3px 4px -3px #000,0 1px 2px rgba(0,0,0,.2); 
+  border: none;
+  cursor: pointer;
+}
+
